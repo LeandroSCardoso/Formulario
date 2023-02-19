@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de Pesquisa de Satisfação</title>
+</head>
+
+
+<body class="ind">
+    <h1>PESQUISA DE SATISFAÇÃO</h1>
+
+    <p>Você conhece o Shopping Iguatemi? Abaixo segue sua localização:</p>
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.4091507147805!2d-51.16460848434408!3d-30.025117637339566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9519779ea66d9993%3A0x9477cb21ba5c4f62!2sIguatemi%20Porto%20Alegre!5e0!3m2!1spt-BR!2sbr!4v1676842719770!5m2!1spt-BR!2sbr"
+        width="790" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+
+    <div><!--FORMULARIO -->
+        <form action="https://webhook.site/9e0b6a58-ffd4-4aa5-93bd-bc3c51594f87" method="post">
+            <p class="txt_form">Utilize a área de texto para nos informar sua experiência em nosso shopping:
+            </p>
+
+            <textarea rows="11" name="texto" cols="76"></textarea>
+
+            <table border="0">
+                <tr>
+                    <th>Nome:</th>
+                    <th><input type="text" size="60" name="nome_real" id="nome"></th>
+                </tr>
+                <tr>
+                    <td>Fone:</td>
+                    <td><input type="tel" size="30" name="fone" id="numfone"></td>
+                </tr>
+                <tr>
+                    <td>e-mail:</td>
+                    <td><input type="email" size="40" name="e_mail" id="email"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button type="submit">Enviar sua pesquisa</button></td>
+                </tr>
+
+            </table>
+        </form>    
+    </div><!--FORMULARIO -->
+
+</body>
+
+</html>
